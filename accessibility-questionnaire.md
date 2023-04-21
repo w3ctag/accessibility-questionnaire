@@ -42,21 +42,27 @@ For example:
 
 Why? Any given media type in isolation (for example, speech) may be inaccessible or inappropriate for a certain subset of users, so authors should be able to provide alternative forms. For example, if a protocol has a way to transmit images, it should also be able to present an accompanying image description string, either in the same payload or through an auxiliary mechanism if the description is context-sensitive. (For example, the alt attribute in an <img> element is auxiliary because image descriptions are very context-dependent.) 
 
-5. Does the specification change how user input is interpreted at an API level? (YES/NO) For example:
+5. Does the specification change how user input is interpreted at an API level? (YES/NO)
+
+For example:
 
    * a new type of input event
    * a change to an existing mechanism for handling user input (e.g., focus)
 
 Why? For users of assistive technology, user input is often done by the assistive tool. This requires the tool to be able to determine the type of input needed and, when it is needed, to present an appropriate affordance to the user. New ways to provide user input will require consideration to ensure assistive technologies will be able to handle them appropriately.
 
-6. Does the specification concern user input, potentially constrained to a specific device or modality? (YES/NO) For example:
+6. Does the specification concern user input, potentially constrained to a specific device or modality? (YES/NO)
+
+For example:
 
    * an API limited to a particular device such as a gamepad, touch screen, or pen
    * a requirement for a user to perform a specific type of interaction in order to enable some aspect of the API (e.g., User Activation dependent)
 
 Why? Specific devices may have unique accessibility considerations, and limiting technology to a particular device may unnecessarily exclude users if a more general design could be created instead.
 
-7. If you answered YES to any of the above questions, does the specification provide authoring advice? (YES/NO) For example:
+7. If you answered YES to any of the above questions, does the specification provide authoring advice? (YES/NO)
+
+For example:
 
    * example code
    * guidance on best practices
