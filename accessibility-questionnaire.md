@@ -6,7 +6,9 @@ This checklist is a quick mechanism to assess whether or not your proposed desig
 
 Note that this checklist doesn’t constitute an accessibility self-review, only a way to determine whether a more thorough review might be required.
 
-1. Does the design being proposed add anything to the user interface? (YES/NO) For example:
+1. Does the design being proposed add any new user interface, either to the web or user agent? (YES/NO)
+
+For example:
 
    * a new type of UI element
    * a new mechanism for drawing custom user interfaces
@@ -14,13 +16,17 @@ Note that this checklist doesn’t constitute an accessibility self-review, only
 
 Why? Visible interface components must be carefully designed to ensure they are flexible enough to work in a wide range of contexts, for example, when users require extremely large fonts or access the web using assistive technologies such as screen readers.
 
-2. If you answered YES to question 1, is the interface only available for a given amount of time? (YES/NO/NA) For example:
+2. If you answered YES to question 1, is the interface only available for a given amount of time? (YES/NO/NA)
+
+For example:
 
    * a notification that disappears 
 
 Why? There are a range of reasons why a time-limited visual interface may cause problems for users; for example, screen reader users may not be aware that the interface is available (or else struggle with too many interruptions), or users may not be able to reach the interface in time to interact with it before it disappears. 
 
-3. Does the design being proposed add anything audible to the user interface? (YES/NO) For example:
+3. Does the design being proposed add anything audible to the user interface? (YES/NO)
+
+For example:
 
    * a notification sound
    * a speech-based interface
@@ -28,7 +34,9 @@ Why? There are a range of reasons why a time-limited visual interface may cause 
 
 Why? Audio cues may not always be accessible to users due to disability or because the use of audio is not appropriate for them. Depending on the purpose of the audio, it may be appropriate to provide mechanisms to provide alternative forms for the same information, to provide a redundant visual cue, or allow configuration options.
 
-4. Is any user-presented data passed through a protocol if the spec is API-only? (YES/NO) For example:
+4. Is any user-presented data passed through a protocol if the spec is API-only? (YES/NO)
+
+For example:
 
    * a transport mechanism for media, such as images, video, or user strings, which may benefit from including an alternative representation as part of the payload
 
