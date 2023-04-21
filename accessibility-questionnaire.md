@@ -1,4 +1,8 @@
-This checklist is a quick mechanism to assess whether or not your proposed design should go through a detailed accessibility review. If you answer YES to any of the questions below, you should seek advice from relevant domain experts. 
+# W3C TAG Accessibility Questionnaire
+
+This document is intended to ne used in the context of the [TAG Review](https://tag.w3.org/workmode/) process. 
+
+This checklist is a quick mechanism to assess whether or not your proposed design should go through a detailed accessibility review.  If you answer YES to any of the questions below, you should seek advice from relevant domain experts. 
 
 Note that this checklist doesn’t constitute an accessibility self-review, only a way to determine whether a more thorough review might be required.
 
