@@ -6,7 +6,7 @@ This checklist is a quick mechanism to assess whether or not your proposed desig
 
 Note that this checklist doesn’t constitute an accessibility self-review, only a way to determine whether a more thorough review might be required.
 
-1. Does the design being proposed add any new user interface, either to the web or user agent? (YES/NO)
+1. Does the design being proposed add any new visual user interface, either to the web or user agent? (YES/NO)
 
 For example:
 
