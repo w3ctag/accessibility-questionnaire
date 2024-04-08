@@ -1,6 +1,6 @@
 # Self-Review Questionnaire: Accessibility
 
-This document is intended to ne used in the context of the [TAG Review](https://tag.w3.org/workmode/) process. 
+This document is intended to be used in the context of the [TAG Design Review](https://tag.w3.org/workmode/) process. 
 
 This checklist is a quick mechanism to assess whether or not your proposed design should go through a detailed accessibility review.  If you answer YES to any of the questions below, you should seek advice from relevant domain experts. 
 
