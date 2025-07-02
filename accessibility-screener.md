@@ -1,10 +1,10 @@
-# Self-Review Questionnaire: Accessibility
+# Accessibility Screener
 
 This document is intended to be used in the context of the [TAG Design Review](https://tag.w3.org/workmode/) process. 
 
-This checklist is a quick mechanism to assess whether or not your proposed design should go through a detailed accessibility review.  If you answer YES to any of the questions below, you should seek advice from relevant domain experts. 
+This checklist is a quick mechanism to assess whether or not your proposed design should go through a detailed accessibility review whilst it's still in the early stages of development (all W3C WGs' specs will get reviewed for accessibility, as part of the W3C horizontal review process). If you answer YES to any of the questions below, you should seek advice from relevant domain experts.
 
-Note that this checklist doesn’t constitute an accessibility self-review, only a way to determine whether a more thorough review might be required.
+Note that this checklist doesn’t constitute an accessibility review, only a way to determine whether a more thorough review might be required.
 
 1. Does the design being proposed add any new visual user interface, either to the web or user agent? (YES/NO)
 
